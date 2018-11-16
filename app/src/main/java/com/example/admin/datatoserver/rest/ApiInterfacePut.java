@@ -8,7 +8,7 @@ import retrofit2.http.POST;
 
 public interface ApiInterfacePut {
     //register
-    @POST("collections/posts/?apiKey=VNNk2xmBYia8LLhNcaUAQNckrMlXiLCI")
+    @POST("collections/posts/?apiKey=your API Key")
     @Headers({"Content-Type: application/json"})
     Call<ResponseBody> Registration(@Body String str);
 }
