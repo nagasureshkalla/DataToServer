@@ -33,7 +33,7 @@ import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity{
     private static String TAG_RETROFIT_GET_POST = "RETROFIT_GET_POST";
-    private final static String API_KEY = "VNNk2xmBYia8LLhNcaUAQNckrMlXiLCI";
+    private final static String API_KEY = "keep your api key here";
     RecyclerView r;
     TextView mResponseTv;
     ProgressDialog progressDialog;
